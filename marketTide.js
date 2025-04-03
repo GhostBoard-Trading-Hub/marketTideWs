@@ -7,7 +7,7 @@ const ws = new WebSocket('wss://ws.unusualwhales.com/v2/foo/websocket?token=NVEx
 
 const sendDataToPHP = async (data) => {
     try {
-        await axios.get('', {
+        await axios.get('https://testapi.webepex.com/ghostboard/dashboard/markettide/update.php', {
             params: data
         });
         console.log("Data sent successfully:", data);
