@@ -43,7 +43,7 @@ ws.on('message', (message) => {
                 net_call_premium: data[4].data.net_call_premium,
                 net_put_premium: data[4].data.net_put_premium,
                 net_volume: data[4].data.net_volume,
-                spy_price: data[4].data.spy_price,  // ✅ Added SPY price
+                spy_price: data[4].spy_price,  // ✅ Added SPY price
                 timestamp: data[4].data.timestamp
             };
 
